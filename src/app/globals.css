@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bigDiv {
+  background-color: rgb(11, 29, 38);
+  background-image:url('./images/bg-2.png'), url('./images/VG.png'), url('./images/bg.png'), url('./images/MG.png') ;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 0 1140px, 0 770px, 0 0, 0 464px; 
+}
+
+
+.page_1{
+  background-image: url('./images/page_1.png');
+  background-repeat: no-repeat;
+  background-position: 0 50px;
+}
+.page_2{
+  background-image: url('./images/page_2.png');
+  background-repeat: no-repeat;
+  background-position: 600px 50px;
+}
+.page_3{
+  background-image: url('./images/page_3.png');
+  background-repeat: no-repeat;
+  background-position: 0 50px;
+}
